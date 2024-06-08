@@ -62,42 +62,13 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="/anggota">
+                <a class="nav-link collapsed" href="/admin/user">
                     <i class="fas fa-fw fa-cog"></i>
-                    <span>Anggota</span>
+                    <span>User</span>
                 </a>
             </li>
 
-            <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="/simpan">
-                    <i class="fas fa-fw fa-cog"></i>
-                    <span>Simpan</span>
-                </a>
-            </li>
-
-            <!-- Nav Item - Utilities Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="/pinjaman">
-                    <i class="fas fa-fw fa-wrench"></i>
-                    <span>Pinjam</span>
-                </a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="/angsur">
-                    <i class="fas fa-fw fa-folder"></i>
-                    <span>Angsur</span>
-                </a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="/denda">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Denda</span></a>
-            </li>
-
-            <li class="nav-item" style="margin-top: 5.8em;">
+            <li class="nav-item" style="margin-top: 19.5em;">
                 <a class="nav-link collapsed" href="/auth/logout">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Logout</span></a>
@@ -131,7 +102,7 @@
 
     <!-- Page level custom scripts -->
     <script src="{{asset('js/demo/datatables-demo.js')}}"></script>
-
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.0.18/sweetalert2.min.js" integrity="sha512-mBSqtiBr4vcvTb6BCuIAgVx4uF3EVlVvJ2j+Z9USL0VwgL9liZ638rTANn5m1br7iupcjjg/LIl5cCYcNae7Yg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src={{asset('js/index.js')}}></script>
 </body>
